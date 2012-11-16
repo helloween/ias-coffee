@@ -193,24 +193,24 @@ do (jQuery) ->
 
   # plugin defaults
   $.ias.defaults = {
-                    container : '#container', 
-                    scrollContainer : $(window), 
-                    item : '.item', 
-                    pagination : '#pagination', 
-                    next : '.next', 
-                    loader : '<img src="images/loader.gif"/>', 
-                    tresholdMargin : 0, 
-                    history : true, 
-                    onPageChange : ->
-                      , 
-                    beforePageChange : ->
-                      , 
-                    onLoadItems : ->
-                      , 
-                    onRenderComplete : ->
-                      , 
-                    customLoaderProc : false 
-                  }
+    container : '#container', 
+    scrollContainer : $(window), 
+    item : '.item', 
+    pagination : '#pagination', 
+    next : '.next', 
+    loader : '<img src="images/loader.gif"/>', 
+    tresholdMargin : 0, 
+    history : true, 
+    onPageChange : ->
+      , 
+    beforePageChange : ->
+      , 
+    onLoadItems : ->
+      , 
+    onRenderComplete : ->
+      , 
+    customLoaderProc : false 
+  }
 
 
   # utility module
